@@ -1,0 +1,83 @@
+--[[
+-------------------------------------------------------------------------------
+===============================================================================
+------------------ teleport system by SKY / ITzNotSky#1428 --------------------
+===============================================================================
+-------------------------------------------------------------------------------
+--]]
+
+
+
+gamename = "earth" -- earth / namek / space / future / hell / queue / zaros / ow / htc . 
+
+
+
+
+
+
+
+
+
+
+
+
+wait(1)
+if gamename == "earth" then
+    game:GetService("TeleportService"):Teleport(536102540,game.Players.LocalPlayer)
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Earth!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif gamename == "space" then
+    game:GetService("TeleportService"):Teleport(478132461,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Space!";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if gamename == "future" then
+    game:GetService("TeleportService"):Teleport(569994010,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Future!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif gamename == "hell" then
+    game:GetService("TeleportService"):Teleport(2046990924,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Secret World!";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if gamename == "queue" then
+    game:GetService("TeleportService"):Teleport(3565304751,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Queue!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif gamename == "zaros" then
+    game:GetService("TeleportService"):Teleport(2651456105,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Zaros!";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if gamename == "ow" then
+    game:GetService("TeleportService"):Teleport(3552157537,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Other World!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif gamename == "htc" then
+    game:GetService("TeleportService"):Teleport(882375367,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To HTC!";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if gamename == "namek"then
+     game:GetService("TeleportService"):Teleport(882399924,game.Players.LocalPlayer)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To HTC!";
+    Text = "By ITzNotSky#1428";
+    })
+end
