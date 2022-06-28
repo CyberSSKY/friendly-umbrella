@@ -7,21 +7,6 @@
 --]]
 
 
-
-gamename = "earth" -- earth / namek / space / future / hell / queue / zaros / ow / htc . 
-
-
-
-
-
-
-
-
-
-
-
-
-wait(1)
 if gamename == "earth" then
     game:GetService("TeleportService"):Teleport(536102540,game.Players.LocalPlayer)
 game:GetService("StarterGui"):SetCore("SendNotification", {
